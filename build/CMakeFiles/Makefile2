@@ -101,6 +101,7 @@ src/preinstall:
 
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/Chordmata.dir/clean
+src/clean: src/CMakeFiles/Chordmata_autogen.dir/clean
 
 .PHONY : src/clean
 
@@ -108,15 +109,15 @@ src/clean: src/CMakeFiles/Chordmata.dir/clean
 # Target rules for target src/CMakeFiles/Chordmata.dir
 
 # All Build rule for target.
-src/CMakeFiles/Chordmata.dir/all:
+src/CMakeFiles/Chordmata.dir/all: src/CMakeFiles/Chordmata_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata.dir/build.make src/CMakeFiles/Chordmata.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata.dir/build.make src/CMakeFiles/Chordmata.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles --progress-num=1,2 "Built target Chordmata"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Chordmata"
 .PHONY : src/CMakeFiles/Chordmata.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Chordmata.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Chordmata.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Chordmata.dir/rule
@@ -130,6 +131,33 @@ Chordmata: src/CMakeFiles/Chordmata.dir/rule
 src/CMakeFiles/Chordmata.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata.dir/build.make src/CMakeFiles/Chordmata.dir/clean
 .PHONY : src/CMakeFiles/Chordmata.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/Chordmata_autogen.dir
+
+# All Build rule for target.
+src/CMakeFiles/Chordmata_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata_autogen.dir/build.make src/CMakeFiles/Chordmata_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata_autogen.dir/build.make src/CMakeFiles/Chordmata_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles --progress-num=6 "Built target Chordmata_autogen"
+.PHONY : src/CMakeFiles/Chordmata_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/Chordmata_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Chordmata_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/Chordmata_autogen.dir/rule
+
+# Convenience name for target.
+Chordmata_autogen: src/CMakeFiles/Chordmata_autogen.dir/rule
+
+.PHONY : Chordmata_autogen
+
+# clean rule for target.
+src/CMakeFiles/Chordmata_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata_autogen.dir/build.make src/CMakeFiles/Chordmata_autogen.dir/clean
+.PHONY : src/CMakeFiles/Chordmata_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

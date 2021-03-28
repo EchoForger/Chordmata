@@ -142,6 +142,19 @@ Chordmata/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata.dir/build.make src/CMakeFiles/Chordmata.dir/build
 .PHONY : Chordmata/fast
 
+#=============================================================================
+# Target rules for targets named Chordmata_autogen
+
+# Build rule for target.
+Chordmata_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chordmata_autogen
+.PHONY : Chordmata_autogen
+
+# fast build rule for target.
+Chordmata_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata_autogen.dir/build.make src/CMakeFiles/Chordmata_autogen.dir/build
+.PHONY : Chordmata_autogen/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -150,6 +163,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Chordmata_autogen"
 	@echo "... Chordmata"
 .PHONY : help
 

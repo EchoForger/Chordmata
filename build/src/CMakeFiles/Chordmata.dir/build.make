@@ -76,9 +76,27 @@ include src/CMakeFiles/Chordmata.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/Chordmata.dir/flags.make
 
+../src/Chordmata_en_US.ts: ../
+../src/Chordmata_en_US.ts: src/CMakeFiles/Chordmata_en_US_lst_file
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../src/Chordmata_en_US.ts"
+	cd /Users/wuhaonan/Desktop/Chordmata/build/src && /Users/wuhaonan/opt/anaconda3/bin/lupdate @/Users/wuhaonan/Desktop/Chordmata/build/src/CMakeFiles/Chordmata_en_US_lst_file -ts /Users/wuhaonan/Desktop/Chordmata/src/Chordmata_en_US.ts
+
+src/CMakeFiles/Chordmata.dir/Chordmata_autogen/mocs_compilation.cpp.o: src/CMakeFiles/Chordmata.dir/flags.make
+src/CMakeFiles/Chordmata.dir/Chordmata_autogen/mocs_compilation.cpp.o: src/Chordmata_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Chordmata.dir/Chordmata_autogen/mocs_compilation.cpp.o"
+	cd /Users/wuhaonan/Desktop/Chordmata/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chordmata.dir/Chordmata_autogen/mocs_compilation.cpp.o -c /Users/wuhaonan/Desktop/Chordmata/build/src/Chordmata_autogen/mocs_compilation.cpp
+
+src/CMakeFiles/Chordmata.dir/Chordmata_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chordmata.dir/Chordmata_autogen/mocs_compilation.cpp.i"
+	cd /Users/wuhaonan/Desktop/Chordmata/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wuhaonan/Desktop/Chordmata/build/src/Chordmata_autogen/mocs_compilation.cpp > CMakeFiles/Chordmata.dir/Chordmata_autogen/mocs_compilation.cpp.i
+
+src/CMakeFiles/Chordmata.dir/Chordmata_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chordmata.dir/Chordmata_autogen/mocs_compilation.cpp.s"
+	cd /Users/wuhaonan/Desktop/Chordmata/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wuhaonan/Desktop/Chordmata/build/src/Chordmata_autogen/mocs_compilation.cpp -o CMakeFiles/Chordmata.dir/Chordmata_autogen/mocs_compilation.cpp.s
+
 src/CMakeFiles/Chordmata.dir/main.cpp.o: src/CMakeFiles/Chordmata.dir/flags.make
 src/CMakeFiles/Chordmata.dir/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Chordmata.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Chordmata.dir/main.cpp.o"
 	cd /Users/wuhaonan/Desktop/Chordmata/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chordmata.dir/main.cpp.o -c /Users/wuhaonan/Desktop/Chordmata/src/main.cpp
 
 src/CMakeFiles/Chordmata.dir/main.cpp.i: cmake_force
@@ -89,17 +107,39 @@ src/CMakeFiles/Chordmata.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chordmata.dir/main.cpp.s"
 	cd /Users/wuhaonan/Desktop/Chordmata/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wuhaonan/Desktop/Chordmata/src/main.cpp -o CMakeFiles/Chordmata.dir/main.cpp.s
 
+src/CMakeFiles/Chordmata.dir/mainwindow.cpp.o: src/CMakeFiles/Chordmata.dir/flags.make
+src/CMakeFiles/Chordmata.dir/mainwindow.cpp.o: ../src/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Chordmata.dir/mainwindow.cpp.o"
+	cd /Users/wuhaonan/Desktop/Chordmata/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chordmata.dir/mainwindow.cpp.o -c /Users/wuhaonan/Desktop/Chordmata/src/mainwindow.cpp
+
+src/CMakeFiles/Chordmata.dir/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chordmata.dir/mainwindow.cpp.i"
+	cd /Users/wuhaonan/Desktop/Chordmata/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wuhaonan/Desktop/Chordmata/src/mainwindow.cpp > CMakeFiles/Chordmata.dir/mainwindow.cpp.i
+
+src/CMakeFiles/Chordmata.dir/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chordmata.dir/mainwindow.cpp.s"
+	cd /Users/wuhaonan/Desktop/Chordmata/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wuhaonan/Desktop/Chordmata/src/mainwindow.cpp -o CMakeFiles/Chordmata.dir/mainwindow.cpp.s
+
 # Object files for target Chordmata
 Chordmata_OBJECTS = \
-"CMakeFiles/Chordmata.dir/main.cpp.o"
+"CMakeFiles/Chordmata.dir/Chordmata_autogen/mocs_compilation.cpp.o" \
+"CMakeFiles/Chordmata.dir/main.cpp.o" \
+"CMakeFiles/Chordmata.dir/mainwindow.cpp.o"
 
 # External object files for target Chordmata
 Chordmata_EXTERNAL_OBJECTS =
 
+bin/Chordmata: src/CMakeFiles/Chordmata.dir/Chordmata_autogen/mocs_compilation.cpp.o
 bin/Chordmata: src/CMakeFiles/Chordmata.dir/main.cpp.o
+bin/Chordmata: src/CMakeFiles/Chordmata.dir/mainwindow.cpp.o
 bin/Chordmata: src/CMakeFiles/Chordmata.dir/build.make
+bin/Chordmata: /Users/wuhaonan/opt/anaconda3/lib/libQt5Widgets.5.9.7.dylib
+bin/Chordmata: /Users/wuhaonan/opt/anaconda3/lib/libQt5Multimedia.5.9.7.dylib
+bin/Chordmata: /Users/wuhaonan/opt/anaconda3/lib/libQt5Gui.5.9.7.dylib
+bin/Chordmata: /Users/wuhaonan/opt/anaconda3/lib/libQt5Network.5.9.7.dylib
+bin/Chordmata: /Users/wuhaonan/opt/anaconda3/lib/libQt5Core.5.9.7.dylib
 bin/Chordmata: src/CMakeFiles/Chordmata.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/Chordmata"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../bin/Chordmata"
 	cd /Users/wuhaonan/Desktop/Chordmata/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Chordmata.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -111,7 +151,7 @@ src/CMakeFiles/Chordmata.dir/clean:
 	cd /Users/wuhaonan/Desktop/Chordmata/build/src && $(CMAKE_COMMAND) -P CMakeFiles/Chordmata.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/Chordmata.dir/clean
 
-src/CMakeFiles/Chordmata.dir/depend:
+src/CMakeFiles/Chordmata.dir/depend: ../src/Chordmata_en_US.ts
 	cd /Users/wuhaonan/Desktop/Chordmata/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wuhaonan/Desktop/Chordmata /Users/wuhaonan/Desktop/Chordmata/src /Users/wuhaonan/Desktop/Chordmata/build /Users/wuhaonan/Desktop/Chordmata/build/src /Users/wuhaonan/Desktop/Chordmata/build/src/CMakeFiles/Chordmata.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/Chordmata.dir/depend
 

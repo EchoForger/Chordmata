@@ -3,17 +3,46 @@ message(STATUS "src This is BINARY dir " ${PROJECT_BINARY_DIR})
 message(STATUS "src This is SOURCE dir " ${PROJECT_SOURCE_DIR})
 
 # 定义工程根目录; CMAKE_SOURCE_DIR为内建变量，表示工程根目录的CMakeLists.txt文件路径
-SET(ROOT_DIR ${CMAKE_SOURCE_DIR})
+set(ROOT_DIR ${CMAKE_SOURCE_DIR})
 
 # 指定头文件搜索路径
-INCLUDE_DIRECTORIES(${ROOT_DIR}/lib/stk/4.6.1/include)
+include_directories(${ROOT_DIR}/lib/stk/4.6.1/include)
 
 # 指定引用的外部库的搜索路径
-LINK_DIRECTORIES(${ROOT_DIR}/lib/stk/4.6.1/lib)
+link_directories(${ROOT_DIR}/lib/stk/4.6.1/lib)
 
 # 指定可执行文件存放目录
-SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+
+find_package(Qt5 COMPONENTS Widgets LinguistTools Multimedia REQUIRED)
+
+set(TS_FILES Chordmata_en_US.ts)
+
+if(ANDROID)
+  add_library(Chordmata SHARED
+    main.cpp
+    mainwindow.cpp
+    mainwindow.h
+    mainwindow.ui
+    ${TS_FILES}
+  )
+else()
+  add_executable(Chordmata
+    main.cpp
+    mainwindow.cpp
+    mainwindow.h
+    mainwindow.ui
+    ${TS_FILES}
+  )
+endif()
+
+target_link_libraries(Chordmata PRIVATE Qt5::Widgets)
+
+qt5_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
 
 # 构建可执行程序
-ADD_EXECUTABLE(Chordmata main.cpp)
-TARGET_LINK_LIBRARIES(Chordmata libstk.a)
+target_link_libraries(Chordmata libstk.a)
+
+find_package(Qt5 COMPONENTS Widgets REQUIRED)
+
+target_link_libraries(Chordmata PRIVATE Qt5::Multimedia)

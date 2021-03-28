@@ -144,6 +144,48 @@ Chordmata/fast:
 	cd /Users/wuhaonan/Desktop/Chordmata/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata.dir/build.make src/CMakeFiles/Chordmata.dir/build
 .PHONY : Chordmata/fast
 
+# Convenience name for target.
+src/CMakeFiles/Chordmata_autogen.dir/rule:
+	cd /Users/wuhaonan/Desktop/Chordmata/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Chordmata_autogen.dir/rule
+.PHONY : src/CMakeFiles/Chordmata_autogen.dir/rule
+
+# Convenience name for target.
+Chordmata_autogen: src/CMakeFiles/Chordmata_autogen.dir/rule
+
+.PHONY : Chordmata_autogen
+
+# fast build rule for target.
+Chordmata_autogen/fast:
+	cd /Users/wuhaonan/Desktop/Chordmata/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata_autogen.dir/build.make src/CMakeFiles/Chordmata_autogen.dir/build
+.PHONY : Chordmata_autogen/fast
+
+Chordmata_autogen/mocs_compilation.o: Chordmata_autogen/mocs_compilation.cpp.o
+
+.PHONY : Chordmata_autogen/mocs_compilation.o
+
+# target to build an object file
+Chordmata_autogen/mocs_compilation.cpp.o:
+	cd /Users/wuhaonan/Desktop/Chordmata/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata.dir/build.make src/CMakeFiles/Chordmata.dir/Chordmata_autogen/mocs_compilation.cpp.o
+.PHONY : Chordmata_autogen/mocs_compilation.cpp.o
+
+Chordmata_autogen/mocs_compilation.i: Chordmata_autogen/mocs_compilation.cpp.i
+
+.PHONY : Chordmata_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Chordmata_autogen/mocs_compilation.cpp.i:
+	cd /Users/wuhaonan/Desktop/Chordmata/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata.dir/build.make src/CMakeFiles/Chordmata.dir/Chordmata_autogen/mocs_compilation.cpp.i
+.PHONY : Chordmata_autogen/mocs_compilation.cpp.i
+
+Chordmata_autogen/mocs_compilation.s: Chordmata_autogen/mocs_compilation.cpp.s
+
+.PHONY : Chordmata_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Chordmata_autogen/mocs_compilation.cpp.s:
+	cd /Users/wuhaonan/Desktop/Chordmata/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata.dir/build.make src/CMakeFiles/Chordmata.dir/Chordmata_autogen/mocs_compilation.cpp.s
+.PHONY : Chordmata_autogen/mocs_compilation.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -171,6 +213,33 @@ main.cpp.s:
 	cd /Users/wuhaonan/Desktop/Chordmata/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata.dir/build.make src/CMakeFiles/Chordmata.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mainwindow.o: mainwindow.cpp.o
+
+.PHONY : mainwindow.o
+
+# target to build an object file
+mainwindow.cpp.o:
+	cd /Users/wuhaonan/Desktop/Chordmata/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata.dir/build.make src/CMakeFiles/Chordmata.dir/mainwindow.cpp.o
+.PHONY : mainwindow.cpp.o
+
+mainwindow.i: mainwindow.cpp.i
+
+.PHONY : mainwindow.i
+
+# target to preprocess a source file
+mainwindow.cpp.i:
+	cd /Users/wuhaonan/Desktop/Chordmata/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata.dir/build.make src/CMakeFiles/Chordmata.dir/mainwindow.cpp.i
+.PHONY : mainwindow.cpp.i
+
+mainwindow.s: mainwindow.cpp.s
+
+.PHONY : mainwindow.s
+
+# target to generate assembly for a file
+mainwindow.cpp.s:
+	cd /Users/wuhaonan/Desktop/Chordmata/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Chordmata.dir/build.make src/CMakeFiles/Chordmata.dir/mainwindow.cpp.s
+.PHONY : mainwindow.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,10 +248,17 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Chordmata_autogen"
 	@echo "... Chordmata"
+	@echo "... Chordmata_autogen/mocs_compilation.o"
+	@echo "... Chordmata_autogen/mocs_compilation.i"
+	@echo "... Chordmata_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mainwindow.o"
+	@echo "... mainwindow.i"
+	@echo "... mainwindow.s"
 .PHONY : help
 
 
