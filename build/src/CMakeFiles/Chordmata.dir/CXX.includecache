@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/stk/4.6.1/include/stk/Generator.h
+Stk.h
+../lib/stk/4.6.1/include/stk/Stk.h
+
+../lib/stk/4.6.1/include/stk/Noise.h
+Generator.h
+../lib/stk/4.6.1/include/stk/Generator.h
+stdlib.h
+-
+
+../lib/stk/4.6.1/include/stk/Stk.h
+string
+-
+cstring
+-
+iostream
+-
+sstream
+-
+vector
+-
+
+/Users/wuhaonan/Desktop/Chordmata/src/main.cpp
+stk/Noise.h
+-
+
