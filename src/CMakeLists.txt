@@ -24,6 +24,18 @@ if(ANDROID)
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    midievent.cpp
+    midievent.h
+    track.cpp
+    track.h
+    miditrack.cpp
+    miditrack.h
+    clip.cpp
+    clip.h
+    midiclip.cpp
+    midiclip.h
+    project.cpp
+    project.h
     ${TS_FILES}
   )
 else()
@@ -32,6 +44,20 @@ else()
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    midievent.cpp
+    midievent.h
+    track.cpp
+    track.h
+    miditrack.cpp
+    miditrack.h
+    clip.cpp
+    clip.h
+    midiclip.cpp
+    midiclip.h
+    project.cpp
+    project.h
+    global.h
+    global.cpp
     ${TS_FILES}
   )
 endif()

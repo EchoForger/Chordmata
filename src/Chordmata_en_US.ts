@@ -4,9 +4,15 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="mainwindow.ui" line="16"/>
-        <location filename="../build/src/Chordmata_autogen/include/ui_mainwindow.h" line="53"/>
+        <location filename="mainwindow.ui" line="14"/>
+        <location filename="../build/Debug/src/Chordmata_autogen/include/ui_mainwindow.h" line="56"/>
         <source>MainWindow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="27"/>
+        <location filename="../build/Debug/src/Chordmata_autogen/include/ui_mainwindow.h" line="57"/>
+        <source>PushButton</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
