@@ -1,6 +1,0 @@
-/Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles/rebuild_cache.dir
-/Users/wuhaonan/Desktop/Chordmata/build/CMakeFiles/edit_cache.dir
-/Users/wuhaonan/Desktop/Chordmata/build/src/CMakeFiles/rebuild_cache.dir
-/Users/wuhaonan/Desktop/Chordmata/build/src/CMakeFiles/edit_cache.dir
-/Users/wuhaonan/Desktop/Chordmata/build/src/CMakeFiles/Chordmata.dir
-/Users/wuhaonan/Desktop/Chordmata/build/src/CMakeFiles/Chordmata_autogen.dir
