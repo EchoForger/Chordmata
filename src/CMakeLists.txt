@@ -7,9 +7,11 @@ set(ROOT_DIR ${CMAKE_SOURCE_DIR})
 
 # 指定头文件搜索路径
 include_directories(${ROOT_DIR}/lib/stk/4.6.1/include)
+include_directories(${ROOT_DIR}/lib/midifile/include)
 
 # 指定引用的外部库的搜索路径
 link_directories(${ROOT_DIR}/lib/stk/4.6.1/lib)
+link_directories(${ROOT_DIR}/lib/midifile/lib)
 
 # 指定可执行文件存放目录
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
@@ -78,6 +80,7 @@ qt5_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
 
 # 构建可执行程序
 target_link_libraries(Chordmata libstk.a)
+target_link_libraries(Chordmata libmidifile.a)
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 

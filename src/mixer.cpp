@@ -83,6 +83,10 @@ void Mixer::GetWave(stk::StkFrames &frame)
         const MIDITrack &track = poj->tracks.at(i);
         stk::StkFrames trackFrame;
         GetWave(trackFrame,track);
+
+        stk::FileWvOut fileOut("track " + to_string(i) + ".wav");
+        fileOut.tick(frame);
+
         Mix(frame,trackFrame);
     }
 }
