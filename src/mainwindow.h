@@ -8,8 +8,10 @@
 #include <stk/FileWvOut.h>
 #include <stk/SineWave.h>
 #include <stk/Chorus.h>
+#include <stk/Whistle.h>
 
 #include "project.h"
+#include "mixer.h"
 
 using namespace stk;
 
@@ -22,6 +24,7 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
     Project poj;
+    Mixer mixer;
 
 
 public:

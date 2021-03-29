@@ -6,12 +6,10 @@
 class Clip
 {
 public:
-    double beginBeat = 0; //beat
-    double maintainBeat = 0;
+    double beginBeat; //beat
+    double maintainBeat;
 public:
-    Clip();
-
-    virtual void GetWave(stk::StkFrames *frame) = 0;
+    Clip(double beginBeat, double maintainBeat);
 };
 
 #endif // CLIP_H

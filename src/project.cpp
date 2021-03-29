@@ -1,16 +1,7 @@
 #include "project.h"
 
-Project::Project()
+Project::Project(int BPM, int beatLength, int sampleRate)
+    :BPM(BPM),beatLength(beatLength),sampleRate(sampleRate)
 {
 
-}
-
-
-void Project::GetWave(stk::StkFrames *frame)
-{
-    for (int i = 0; i < tracks.size(); i++)
-    {
-        Track &track = tracks.at(i);
-
-    }
 }

@@ -9,16 +9,13 @@
 
 class MIDITrack : public Track
 {
-
+public:
     vector<MIDIClip>midiClips;
     stk::Instrmnt *instrmnt;
 
 public:
-    MIDITrack();
+    MIDITrack(stk::Instrmnt *instrmnt);
 
-
-    virtual void GetWave(stk::StkFrames *frame);
-    void GetClipWave(stk::StkFrames *frame, const MIDIClip &clip);
 };
 
 #endif // MIDITRACK_H

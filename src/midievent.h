@@ -5,11 +5,12 @@
 class MIDIEvent
 {
 public:
-    double beginBeat = 0; //beat
-    double maintainBeat = 0;
-    int intensity = 80; //rang in [0, 127]
+    double beginBeat; //beat
+    double maintainBeat;
+    int intensity = 80; //rang in [0, 128]
+    int tune;
 public:
-    MIDIEvent(double beginBeat, double maintainBeat);
+    MIDIEvent(double beginBeat, double maintainBeat, int tuen);
 };
 
 #endif // MIDIEVENT_H

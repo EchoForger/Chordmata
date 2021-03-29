@@ -11,9 +11,9 @@
 class Track //
 {
 public:
+    double volume = 1;
+public:
     Track();
-
-    virtual void GetWave(stk::StkFrames *frame) = 0;
 };
 
 #endif // TRACK_H

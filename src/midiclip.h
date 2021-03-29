@@ -11,11 +11,10 @@ using namespace std;
 
 class MIDIClip : public Clip
 {
+public:
     vector<MIDIEvent>midiEvents;
 public:
-    MIDIClip();
-
-    virtual void GetWave(stk::StkFrames *frame);
+    MIDIClip(double beginBeat, double maintainBeat);
 };
 
 #endif // MIDICLIP_H

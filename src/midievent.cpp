@@ -1,8 +1,9 @@
 #include "midievent.h"
 
-MIDIEvent::MIDIEvent(double beginBeat, double maintainBeat)
+MIDIEvent::MIDIEvent(double beginBeat, double maintainBeat, int tune)
     :beginBeat(beginBeat),
-      maintainBeat(maintainBeat)
+      maintainBeat(maintainBeat),
+      tune(tune)
 {
 
 }

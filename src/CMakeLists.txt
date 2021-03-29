@@ -36,6 +36,12 @@ if(ANDROID)
     midiclip.h
     project.cpp
     project.h
+    mixer.cpp
+    mixer.h
+    chord.cpp
+    chord.h
+    pianowork.cpp
+    pianowork.h
     ${TS_FILES}
   )
 else()
@@ -56,8 +62,12 @@ else()
     midiclip.h
     project.cpp
     project.h
-    global.h
-    global.cpp
+    mixer.cpp
+    mixer.h
+    chord.cpp
+    chord.h
+    pianowork.cpp
+    pianowork.h
     ${TS_FILES}
   )
 endif()

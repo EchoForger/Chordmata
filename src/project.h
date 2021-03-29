@@ -1,12 +1,9 @@
 #ifndef PROJECT_H
 #define PROJECT_H
 
-//index  第几个采样点
-//beat   第几拍
-//second 第几秒
-
 #include <vector>
 #include "track.h"
+#include "miditrack.h"
 
 using namespace std;
 
@@ -14,14 +11,16 @@ class Project
 {
 public:
 
-    int BPM = 60;
-    int sampleRate = 44100;
-    vector<Track> tracks;
+    vector<MIDITrack> tracks;
+
+    int BPM;
+    int beatLength;
+    int sampleRate;
+
 
 public:
-    Project();
+    Project(int BPM, int beatLength, int sampleRate);
 
-    void GetWave(stk::StkFrames *frame);
 };
 
 #endif // PROJECT_H
