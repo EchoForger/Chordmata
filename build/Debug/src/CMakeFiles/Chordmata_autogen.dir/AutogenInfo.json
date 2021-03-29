@@ -1,0 +1,205 @@
+{
+	"BUILD_DIR" : "/Users/wuhaonan/Desktop/Chordmata/build/Debug/src/Chordmata_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/wuhaonan/Desktop/Chordmata/build/Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/wuhaonan/Desktop/Chordmata/build/Debug/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/wuhaonan/Desktop/Chordmata/src",
+	"CMAKE_EXECUTABLE" : "/usr/local/Cellar/cmake/3.19.3/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/wuhaonan/Desktop/Chordmata/src/CMakeLists.txt",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/usr/local/Cellar/cmake/3.19.3/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/usr/local/Cellar/cmake/3.19.3/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake",
+		"/usr/local/Cellar/cmake/3.19.3/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFMediaPlayerServicePlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFServicePlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_CoreAudioPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/wuhaonan/Desktop/Chordmata",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/Users/wuhaonan/Desktop/Chordmata/src/chord.h",
+			"MU",
+			"EWIEGA46WW/moc_chord.cpp"
+		],
+		[
+			"/Users/wuhaonan/Desktop/Chordmata/src/clip.h",
+			"MU",
+			"EWIEGA46WW/moc_clip.cpp"
+		],
+		[
+			"/Users/wuhaonan/Desktop/Chordmata/src/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp"
+		],
+		[
+			"/Users/wuhaonan/Desktop/Chordmata/src/midiclip.h",
+			"MU",
+			"EWIEGA46WW/moc_midiclip.cpp"
+		],
+		[
+			"/Users/wuhaonan/Desktop/Chordmata/src/midievent.h",
+			"MU",
+			"EWIEGA46WW/moc_midievent.cpp"
+		],
+		[
+			"/Users/wuhaonan/Desktop/Chordmata/src/miditrack.h",
+			"MU",
+			"EWIEGA46WW/moc_miditrack.cpp"
+		],
+		[
+			"/Users/wuhaonan/Desktop/Chordmata/src/mixer.h",
+			"MU",
+			"EWIEGA46WW/moc_mixer.cpp"
+		],
+		[
+			"/Users/wuhaonan/Desktop/Chordmata/src/pianowork.h",
+			"MU",
+			"EWIEGA46WW/moc_pianowork.cpp"
+		],
+		[
+			"/Users/wuhaonan/Desktop/Chordmata/src/project.h",
+			"MU",
+			"EWIEGA46WW/moc_project.cpp"
+		],
+		[
+			"/Users/wuhaonan/Desktop/Chordmata/src/track.h",
+			"MU",
+			"EWIEGA46WW/moc_track.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/wuhaonan/Desktop/Chordmata/build/Debug/src/Chordmata_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/wuhaonan/Desktop/Chordmata/build/Debug/src/Chordmata_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_MULTIMEDIA_LIB",
+		"QT_NETWORK_LIB",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/wuhaonan/Desktop/Chordmata/build/Debug/src",
+		"/Users/wuhaonan/Desktop/Chordmata/src",
+		"/Users/wuhaonan/Desktop/Chordmata/lib/stk/4.6.1/include",
+		"/Users/wuhaonan/Desktop/Chordmata/lib/midifile/include",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/QtWidgets.framework",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/QtWidgets.framework/Headers",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/QtGui.framework",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/QtGui.framework/Headers",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/QtCore.framework",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/QtCore.framework/Headers",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/mkspecs/macx-clang",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/QtMultimedia.framework",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/QtMultimedia.framework/Headers",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/QtNetwork.framework",
+		"/Users/wuhaonan/Qt/5.14.2/clang_64/lib/QtNetwork.framework/Headers",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/local/Cellar/cmake/3.19.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/wuhaonan/Desktop/Chordmata/build/Debug/src/Chordmata_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/Users/wuhaonan/Desktop/Chordmata/build/Debug/src/CMakeFiles/Chordmata_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/wuhaonan/Qt/5.14.2/clang_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/Users/wuhaonan/Qt/5.14.2/clang_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 14,
+	"SETTINGS_FILE" : "/Users/wuhaonan/Desktop/Chordmata/build/Debug/src/CMakeFiles/Chordmata_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/Users/wuhaonan/Desktop/Chordmata/src/chord.cpp", "MU" ],
+		[ "/Users/wuhaonan/Desktop/Chordmata/src/clip.cpp", "MU" ],
+		[ "/Users/wuhaonan/Desktop/Chordmata/src/main.cpp", "MU" ],
+		[ "/Users/wuhaonan/Desktop/Chordmata/src/mainwindow.cpp", "MU" ],
+		[ "/Users/wuhaonan/Desktop/Chordmata/src/midiclip.cpp", "MU" ],
+		[ "/Users/wuhaonan/Desktop/Chordmata/src/midievent.cpp", "MU" ],
+		[ "/Users/wuhaonan/Desktop/Chordmata/src/miditrack.cpp", "MU" ],
+		[ "/Users/wuhaonan/Desktop/Chordmata/src/mixer.cpp", "MU" ],
+		[ "/Users/wuhaonan/Desktop/Chordmata/src/pianowork.cpp", "MU" ],
+		[ "/Users/wuhaonan/Desktop/Chordmata/src/project.cpp", "MU" ],
+		[ "/Users/wuhaonan/Desktop/Chordmata/src/track.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
