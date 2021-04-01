@@ -19,13 +19,11 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    smf::MidiFile midiFile("bwv772.mid");
-    cout<<midiFile.getEvent(0,1).seconds<<endl;
-
     auto instrmnt = new stk::Flute(20);
     poj.tracks.clear();
     poj.tracks.push_back(MIDITrack(instrmnt));
     poj.tracks.at(0).midiClips.push_back(MIDIClip(0,40));
+    poj.tracks.at(0).midiClips.at(0).midiEvents.push_back(MIDIEvent(0,20,0));
 
     stk::StkFrames frame;
     stk::FileWvOut fileOut("temp.wav");

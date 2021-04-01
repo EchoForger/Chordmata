@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-92bde9f8b883669abd94b9f76e693dbd ../src/Chordmata_en_US.ts
-465c9ea6757e1d9c30ecd3d3c5b436d8 src/CMakeFiles/Chordmata_autogen
